@@ -1,0 +1,267 @@
+.App {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+.signin {
+  margin: 50px;
+  width: 200px;
+}
+
+.navbar{
+  width: 100%;
+  border: 2px red solid;
+}
+
+.Nav {
+  width: 100vw;
+  border: 2px red solid;
+}
+
+.header {
+  
+  background: rgb(238,174,202);
+  background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+
+  display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 10px;
+   color: white;  
+}
+
+
+.container {
+   display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;  
+}
+
+.widgimg{
+  height: 120px;
+  width: 150px;
+  border-top-left-radius: 9px;
+  border-top-right-radius: 9px;
+}
+
+.User-widget{
+  display: flex;
+}
+
+.user {
+  border : 2px solid rgba(151, 189, 223, 0.334);
+  width: 200px;
+  padding: 10px;
+  border-radius: 10px;
+  margin: 5px;
+  margin-left: 8px;
+  height: 200px;
+  margin-top: 29px;
+}
+
+
+.profil-img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+.cardSpaceX{
+  font-size: 10px;
+  background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url("https://c0.lestechnophiles.com/www.numerama.com/wp-content/uploads/2020/05/spacex-header-crew-mission-1024x576.jpg?webp=1&key=914d79f4");
+  background-size: cover;
+  color : white;
+  padding: 10px;
+  
+}
+
+.badge{
+  margin-left: 90%;
+  text-align: center;
+}
+
+.menu{
+  display: flex;
+  justify-content: space-evenly;
+  width: 70%;
+}
+
+
+.catimg{
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+  border: 1px black solid;
+}
+
+
+
+.widgcontainer{
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+  margin: 10px;
+}
+
+ .bookContainer{
+   background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url("https://www.slate.fr/sites/default/files/Doshorizontaux.jpeg");
+  background-size: cover;
+  color : white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 10px;
+
+ }
+
+ .containerBook{
+ font-size: 5px;
+}
+
+ .cardbook{
+  padding: 10px;
+  border: solid 1px black;
+  font-size: 10px;
+ }
+
+ .imgBook{
+  height: 100px;
+  border-radius: 5px;
+  }
+
+ .moviebox{
+  border: 1px black solid;
+  font-size: 6px;
+  padding: 5px;
+ }
+
+ .widgList{
+  display: flex;
+ }
+
+ .movieImag{
+  height: 100px;
+  border-radius: 5px;
+ }
+
+ .moviecontainer{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 10px;
+  color : white;
+  background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url("https://offloadmedia.feverup.com/parissecret.com/wp-content/uploads/2020/06/19142125/Capture-d%E2%80%99%C3%A9cran-88-1024x678.png");
+ }
+
+ .movieAdd{
+  margin-top: 5px;
+  }
+
+ .gitcontainer{
+  background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url("https://upload.wikimedia.org/wikipedia/commons/9/95/Font_Awesome_5_brands_github.svg");
+  background-size: cover;
+  color : white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 10px;
+  margin-top: 30px;
+  margin-left: 20px;
+}
+
+.renderrepo{
+  font-size: 7px;
+  color : white;
+}
+
+.inputConvert{
+  width: 50%;
+  border: solid 1px red;
+}
+
+.convertBox{
+  padding: 5px;
+  background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url("https://cdn.corporatefinanceinstitute.com/assets/currency-1024x682.jpeg");
+  background-size: cover;
+  color : white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 10px;
+  margin-top: 30px;
+}
+
+.inptuselect{
+  display: flex;
+}
+
+.convertBoxcompo{
+  display: flex;
+ 
+}
+
+.convertBox{
+margin: 0px;
+margin-top: 10px;
+margin-right: 10px;
+margin-left: 11px;
+
+}
+
+.titreMovie{
+  font-size: 10px;
+  font-weight: bold;
+}
+
+.buttonGit{
+  margin-top: 5px;
+}
+
+.inputBook{
+  margin-bottom: 37px;
+}
+
+.selectConvert{
+  border-radius: 5px;
+}
+
